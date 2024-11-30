@@ -1,0 +1,46 @@
+.listContainer {
+  background-color: rgba(255, 255, 255, 0.247);
+  height: 140px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.thumbnail {
+  border-right: .1rem solid white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+}
+
+.thumbnail .temp {
+  color: black;
+  font-size: 20px;
+}
+
+.thumbnail .weather {
+  color: black;
+  font-size: 17px;
+}
+
+
+.thumbnail p {
+  margin: 0px;
+}
+
+
+
+.icon {
+  height: 30px;
+  width: auto;
+}
+
+.weather {
+  font-size: 0.7rem;
+}

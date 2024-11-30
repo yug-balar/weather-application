@@ -1,0 +1,51 @@
+.list {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 20px;
+
+}
+
+.list h3 {
+  font-size: 15px;
+  color: black;
+  display: flex;
+
+}
+
+.listItem {
+  height: 30%;
+  width: 75%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+
+
+.listItem p {
+  margin: 0px;
+}
+
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: black;
+}
+
+.iconContainer img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
